@@ -12,7 +12,7 @@ const page = () => {
         <div className={` flex md:static  absolute item-center md:min-h-fit  left-0 md:w-auto w-full  ${Ham ? 'top-20 ':'top-[-490px]'} p-5 m-5`}>     
           <ul className='flex md:flex-row flex-col md:w-auto  items-center md:gap-[5vw]  gap-10  px-16 '>
             <li><Link href={'/'}>Our Products</Link></li>
-            <li><Link href={'/components/Review/page.js'}>Review</Link></li>
+            <li><Link href={'/components/Review'}>Review</Link></li>
             
 
             <li></li>
